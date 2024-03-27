@@ -169,7 +169,6 @@ const VideoCarousel = () => {
                     list.id === 2 && "translate-x-44"
                   } pointer-events-none`}
                   preload="auto"
-                  muted
                   ref={(el) => (videoRef.current[i] = el)}
                   onEnded={() =>
                     i !== 3
